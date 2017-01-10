@@ -12,7 +12,7 @@ SISTEMA:
 Para poder acceder al sistema, se debe configurar la ruta y el puerto del servidor. Hay dos archivos donde se debe realizar esta acción: 
 
 	1. 	.\Código fuente\processManagement\application\config\config.php - Línea 26
-		La variable $config['base_url'] almacena almacena la ruta para acceder al código fuente y del primer archivo de 		donde se inicializa la aplicación. 
+		La variable $config['base_url'] almacena la ruta para acceder al código fuente y del primer archivo de donde se inicializa la aplicación. 
 
 		$config['base_url']  =  'http://localhost[:puerto]/[carpeta_código_fuente]/index.php/';
 
