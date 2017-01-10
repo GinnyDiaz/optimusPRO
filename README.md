@@ -18,7 +18,7 @@ Para poder acceder al sistema, se debe configurar la ruta y el puerto del servid
 
 
 	2 .	.\Código fuente\processManagement\application\config\constants.php - Línea 88
-		La variable $config['base_url'] almacena almacena solo la ruta para acceder al código fuente. 
+		En esta línea se define solo la ruta para acceder al código fuente. 
 	
 		define('PROJECT_NAME', 'http://localhost[:puerto]/[carpeta_código_fuente]/' );
 	
